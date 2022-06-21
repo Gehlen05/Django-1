@@ -27,9 +27,24 @@
 - VirtualEnv
 - requirements.txt
 
-# Downloads
+# Execução
 Efetuar o download do projeto:
 ```
 git clone git@github.com:Gehlen05/Django.git
 ```
-
+Criar venv
+```
+virtualenv .venv
+```
+Ativar venv
+```
+source .venv/bin/activate
+```
+Instalar requirements
+```
+pip install -r requirements.txt
+```
+Executar projeto na maquina local
+```
+- python manage.py runserver
+```
